@@ -19,6 +19,10 @@ const randomizeEm = n => {
       titleX -= 5
       titleY -= 5
       titleBorder += 0.1
+      if (score > 1200) {
+        window.addEventListener('mousemove', event => event.stopPropagation(), true);
+        return
+      }
     }
     titleSize += 0.015
     title.style.fontSize = titleSize.toString().concat('rem')
@@ -45,4 +49,4 @@ const randomizeEm = n => {
 document.addEventListener('mousemove', () => randomizeEm(1))
 document.addEventListener('click', () => randomizeEm(20))
 document.addEventListener('scroll', () => randomizeEm(20))
-document.addEventListener('mousedown', () => randomizeEm(20))
+document.addEventListener('scroll', nothing)
