@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+  background-color: rgb(34, 34, 34);
+}
+
+body {
+  font-family: Open Sans, arial, sans-serif;
+  color: rgb(200, 219, 235);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+main {
+  display: block;
+  width: 40rem;
+  margin: 0 auto;
+}
+
+header > h1 {
+  position: absolute;
+  margin: 0;
+  font-size: 2rem;
+  border-bottom: 0.5rem solid rgb(231, 222, 210);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ul, li {
+  list-style: none;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(200, 219, 235);
+}
+
+a:hover {
+  /* color: rgb(184, 178, 160); */
+  color: rgb(255, 0, 0);
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 10px;
+  }
+
+  main {
+    width: 38rem;
+  }
+}
