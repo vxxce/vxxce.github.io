@@ -66,4 +66,3 @@ const randomizeEm = n => {
 document.addEventListener("mousemove", () => randomizeEm(1))
 document.addEventListener("click", () => randomizeEm(20))
 document.addEventListener("scroll", () => randomizeEm(20))
-document.addEventListener("scroll", nothing)
