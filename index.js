@@ -1,7 +1,8 @@
 const title = document.querySelector("h1.title")
 const main = document.querySelector("main")
 
-let titleX, titleY = 10
+let titleX = 10
+let titleY = 10
 let [r, g, b] = [200, 180, 170]
 let score = 0
 let titleSize = 2
