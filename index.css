@@ -44,12 +44,12 @@ a:hover {
   color: rgb(255, 0, 0);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   main {
-    width: 38rem;
+    width: 36rem;
   }
 }
